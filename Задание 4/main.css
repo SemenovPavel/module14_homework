@@ -1,0 +1,43 @@
+.panel {
+    width: 100px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .pictures {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .draw__picture {
+    width: 100%;
+  }
+  
+  .pictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 220px);
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  
+  .width__nshow {
+    display: none;
+  }
+  
+  .height__nshow {
+    display: none;
+  }
+  
+  .width__show {
+    color: red;
+    font-size: small;
+  }
+  
+  .height__show {
+    color: red;
+    font-size: small;
+  }
+  
